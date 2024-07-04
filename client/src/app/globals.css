@@ -1,0 +1,233 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* clerk classes */
+
+.cl-internal-phfxlr {
+  border: 1px solid #2d333b;
+  border-radius: 8px;
+}
+
+.cl-userButtonPopoverActionButtonIcon {
+  color: #ffffff;
+}
+
+.cl-logoBox {
+  height: 40px;
+}
+.cl-dividerLine {
+  background: #2d333b;
+  height: 2px;
+}
+
+.cl-internal-1ljjxiy {
+  border: 3px solid #ffffff;
+}
+.cl-internal-1ljjxiy:hover {
+  background-color: #0d1117;
+}
+.cl-internal-1auy46s {
+  color: #dbe2e8;
+}
+.cl-internal-1auy46s:hover {
+  color: #dbe2e8;
+}
+
+.cl-internal-wkkub3 {
+  color: #ffffff;
+}
+.cl-userButtonPopoverActionButton {
+  color: #ffffff;
+}
+.cl-internal-15di0mo {
+  color: #848d97;
+}
+.cl-internal-1pfcfzo {
+  color: #2d333b;
+}
+.cl-userButtonPopoverActionButton:hover {
+  color: #dbe2e8;
+}
+.cl-userButtonPopoverActionButton {
+  color: #848d97;
+}
+
+.cl-internal-t7xoon:hover {
+  color: #dbe2e8;
+}
+
+.cl-internal-t7xoon {
+  color: #848d97;
+}
+.cl-internal-zpbffa {
+  color: #848d97;
+}
+.cl-internal-eukaea {
+  color: #848d97;
+}
+.cl-internal-1xpngvq {
+  color: #848d97;
+}
+
+.cl-internal-1xpngvq:hover {
+  color: #dbe2e8;
+}
+.cl-internal-19v6770 {
+  color: #848d97;
+}
+.cl-internal-19v6770:hover {
+  color: #dbe2e8;
+}
+.cl-internal-1qz3ov6 {
+  color: #848d97;
+}
+.cl-internal-1qz3ov6:hover {
+  color: #dbe2e8;
+}
+.cl-internal-1qz3ov6 {
+  background-color: #0d1117;
+}
+.cl-internal-1dtwxh1:hover {
+  color: #dbe2e8;
+}
+
+/* DatePicker CSS */
+
+.react-datepicker__month-container {
+  background-color: #161b22;
+  border-color: #2d333b !important;
+}
+.react-datepicker__header {
+  background-color: #0d1117 !important;
+  color: #848d97;
+  border-color: #2d333b !important;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list {
+  background-color: #161b22;
+  border-color: #2d333b !important;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  color: #848d97 !important;
+  border-color: #2d333b !important;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range,
+.react-datepicker__month-text--selected,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--selected,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--selected,
+.react-datepicker__year-text--in-selecting-range,
+.react-datepicker__year-text--in-range {
+  background-color: #0d1117 !important;
+  color: #dbe2e8 !important;
+  border-color: #2d333b !important;
+}
+
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  color: #dbe2e8 !important;
+  border-color: #2d333b !important;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list {
+  color: #848d97 !important;
+  border-color: #2d333b !important;
+}
+.react-datepicker {
+  border-color: #2d333b !important;
+}
+
+.react-datepicker__time-container {
+  border-color: #2d333b !important;
+}
+
+/* ScrollBar CSS */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #616060;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1f1f29;
+}
+
+/* Toastify CSS */
+
+.Toastify__toast {
+  background-color: #010409 !important; /* Custom background color */
+  color: #dbe2e8 !important; /* Custom text color */
+}
+
+/* Stream Custom CSS */
+
+.str-video__device-settings {
+  background-color: #161b22;
+  border: 1px #2d333b solid;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.str-video__device-settings__device-kind .str-video__option,
+.str-video__device-settings__device-kind .str-video__device-settings__option {
+  background-color: #0d1117 !important;
+  color: #848d97 !important ;
+}
+.str-video__device-settings__device-kind .str-video__option,
+.str-video__device-settings__device-kind
+  .str-video__device-settings__option:hover {
+  background-color: #2d333b !important;
+  color: #dbe2e8 !important;
+}
+
+.str-video__participant-details__name {
+  width: 100px; /* Set the desired width */
+  overflow: hidden; /* Hide any overflowing text */
+  text-overflow: ellipsis; /* Display ellipsis for overflow text */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+.str-video__participant-listing-item__display-name {
+  width: 200px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.str-video__video-placeholder .str-video__video-placeholder__initials-fallback {
+  width: 50px !important;
+  height: 50px !important;
+}
+.str-video__video-placeholder .str-video__video-placeholder__avatar {
+  width: 50px !important;
+  height: 50px !important;
+}
+
