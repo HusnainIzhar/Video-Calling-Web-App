@@ -26,7 +26,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/husnainizhar/chime.git
+   git clone https://github.com/husnainizhar/chime.git](https://github.com/HusnainIzhar/Video-Calling-Web-App.git
 ## Installation
 
 2. Install NPM packages
@@ -40,5 +40,5 @@ To get a local copy up and running, follow these simple steps:
 ## Contact
 Husnain Izhar - husnainizhar@outlook.com
 
-Project Link: https://github.com/HusnainIzhar/Video-Calling-Web-App
+Project Link: [https://github.com/HusnainIzhar/Video-Calling-Web-App](https://github.com/HusnainIzhar/Video-Calling-Web-App.git)
    
