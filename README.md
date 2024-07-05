@@ -27,3 +27,18 @@ To get a local copy up and running, follow these simple steps:
 1. Clone the repo
    ```sh
    git clone https://github.com/husnainizhar/chime.git
+## Installation
+
+2. Install NPM packages
+   ```sh
+   npm install
+## Usage
+1. Open your browser and navigate to http://localhost:3000.
+2. Sign up or log in using Clerk authentication.
+3. Start a new video call and invite other users to join.
+
+## Contact
+Husnain Izhar - husnainizhar@outlook.com
+
+Project Link: https://github.com/HusnainIzhar/Video-Calling-Web-App
+   
